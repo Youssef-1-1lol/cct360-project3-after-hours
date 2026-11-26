@@ -42,8 +42,12 @@ Original fictional interface copy and CSS scenes were prepared for this project 
 
 Youssef should review and personalize the work, understand its logic and disclose AI assistance according to the course requirements. Actual commits record development milestones; they do not claim classroom attendance, earlier work dates or unaided authorship.
 
+## Development checks
+
+The website itself has no package dependencies. Optional test dependencies are separate: run `pnpm install`, then `pnpm test` for the DOM integration suite and `pnpm check` for syntax. The test file executes the real app script with a simulated document, including simulated pointer events. It is not a replacement for real touch, keyboard, screen-reader or visual browser checks.
+
 ## Verification status and remaining deliverables
 
-JavaScript syntax and source consistency checks can be run locally. Actual pointer, keyboard and responsive browser behaviour still needs a browser review before calling the website submission-ready.
+JavaScript syntax, HTML/source consistency and 17 DOM integration checks passed on November 25, 2026. Fixed a paused-animation bug that could hide a newly opened scene. Actual pointer, keyboard and responsive browser behaviour still needs a browser review before calling the website submission-ready. See `docs/SUBMISSION_CHECK.md` for the exact evidence and limits.
 
 Not yet completed: public GitHub repository/Pages publication, final visual browser check, final source ZIP, 5–7-slide deck and the student’s five-minute recorded presentation. Git commits are currently local until the new remote is created and pushed. No final Quercus submission has been made.
