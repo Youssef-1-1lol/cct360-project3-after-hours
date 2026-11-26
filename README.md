@@ -9,7 +9,7 @@ A quiet interactive journey about leaving a crowded digital day behind. The visi
 - Repository: https://github.com/Youssef-1-1lol/cct360-project3-after-hours
 - GitHub Pages: https://youssef-1-1lol.github.io/cct360-project3-after-hours/
 
-The live link is verified separately as part of publication; do not infer a successful deployment from the URL alone.
+Public HTML, CSS and JavaScript were verified against the current project files on November 25, 2026.
 
 ## Run
 
@@ -55,6 +55,6 @@ The website itself has no package dependencies. Optional test dependencies are s
 
 ## Verification status and remaining deliverables
 
-JavaScript syntax, HTML/source consistency and 17 DOM integration checks passed on November 25, 2026. Fixed a paused-animation bug that could hide a newly opened scene. Actual pointer, keyboard and responsive browser behaviour still needs a browser review before calling the website submission-ready. See `docs/SUBMISSION_CHECK.md` for the exact evidence and limits.
+JavaScript syntax, HTML/source consistency and 17 DOM integration checks passed on November 25, 2026. Fixed a paused-animation bug that could hide a newly opened scene. Youssef confirmed that the five scenes looked and worked properly in the open browser on November 25. This user check is separate from the automated DOM tests; it is not a multi-device or professional accessibility audit. See `docs/SUBMISSION_CHECK.md` for the exact evidence and limits.
 
-Not yet completed: public GitHub repository/Pages publication, final visual browser check, final source ZIP, 5–7-slide deck and the student’s five-minute recorded presentation. Git commits are currently local until the new remote is created and pushed. No final Quercus submission has been made.
+The repository and GitHub Pages site are published. The seven-slide editable deck is in `presentation/After-Hours-Presentation.pptx`; the source package is generated from this repository. The video is still to be recorded by the student. See `docs/PRESENTATION_NOTES.md` for demonstration prompts and `docs/CODE_WALKTHROUGH.md` for preparation. No final Quercus submission has been made.

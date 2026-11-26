@@ -12,7 +12,7 @@ Checked November 25, 2026 against the assignment instructions retained in REQUIR
 | Two unconventional navigation/reveal mechanisms | Rotary dial to enter; swipe-to-clear interruptions to reveal the next step; drag-to-place thoughts adds another gesture |
 | Two animations/transitions | Scene fade/movement, notification entry/exit, ambient drift and clock blink |
 | Responsive CSS | Fluid typography and widths, wrapping thought controls, 800px and 480px breakpoints; rendered visual inspection still outstanding |
-| Organized HTML/CSS/JS and attribution | Files separated by role; README, About panel and code walkthrough document include assistance/asset details |
+| Organized HTML/CSS/JS and attribution | Files separated by role; README, presentation credits and code walkthrough include assistance/asset details |
 
 ## Verification completed
 
@@ -24,17 +24,24 @@ Checked November 25, 2026 against the assignment instructions retained in REQUIR
 
 ## Verification limits
 
-DOM simulation is not a real browser. It does not validate pixel layout, native touch scrolling, actual pointer capture, native dialog focus trapping, browser rendering or screen-reader output. The local Playwright launch could not run here: its bundled browser is missing and the available Chrome process exits immediately. No live browser screenshots or actual phone/device checks have been claimed.
+DOM simulation is not a real browser. It does not validate pixel layout, native touch scrolling, actual pointer capture, native dialog focus trapping, browser rendering or screen-reader output. The automatic browser launch is blocked by macOS process permissions, including a fresh headless test runtime. No agent-produced live browser screenshots or actual phone/device checks have been claimed. The user-reported five-scene browser check is recorded separately below.
 
-## Remaining before a complete submission
+## Completed delivery preparation
 
-1. Check all five scenes in an actual browser at desktop and phone widths, including scroll/overlap, both gesture and keyboard routes, pause/reduced motion, dialog and restart.
-2. Publish a public GitHub repository and GitHub Pages site, push the real local commits, then verify both public URLs. No remote is configured in this repository yet.
-3. Create and visually verify the required 5–7-slide deck. Include the verified live and repository URLs, overview, interactions/navigation, technical features, visual choices, rationale, challenges/learnings and references/credits.
-4. Record the student’s five-minute presentation, using the actual project and an accurate account of their contribution. Do not claim this recording already exists.
-5. Regenerate the final source ZIP after any remaining fixes; exclude `.git`, dependencies and temporary outputs.
-6. Student reviews code walkthrough and prepares for possible 2–3-minute live explanation.
-7. Ask before final Quercus submission, following the user’s standing preference.
+- Public repository created and genuine development commits pushed to main.
+- GitHub Pages site returned HTTP 200. Public HTML, CSS and JavaScript match the current source; the Info paragraph removal was separately verified on the live site.
+- Youssef confirmed that all five scenes looked and worked properly in the open browser on November 25, 2026. This is a user-reported browser check, not an automated visual/mobile audit.
+- Seven-slide editable deck rendered and visually reviewed slide by slide. It covers the concept, experience flow, interaction/navigation, technical features, visual design, rationale, challenge, limitations, references and both clickable project URLs.
+- PPTX package, layout/font declarations, seven-slide count and first-party reimport checked by the presentation finalizer.
+- Source ZIP regenerated from the completed repository and checked for integrity and matching HTML/CSS/JS. Git metadata and dependencies excluded.
+- Recording prompts and live code walkthrough guidance prepared.
+
+## Still required
+
+1. Youssef records the five-minute presentation and checks its audio, screen and any intended camera view.
+2. Add that recording to the final coursework package/submission.
+3. Prepare to explain the code if selected in class.
+4. Ask before final Quercus submission, following the user’s standing preference.
 
 ## Rubric focus
 
