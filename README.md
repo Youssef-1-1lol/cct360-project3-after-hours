@@ -4,6 +4,13 @@ An individual CCT360 Project 3, **Expressive Interfaces**, by Youssef Alhabbal.
 
 A quiet interactive journey about leaving a crowded digital day behind. The visitor turns a dial, dismisses fictional interruptions, gives thoughts a place, and chooses how much visual noise to let through. The final scene reflects their choices without rating them.
 
+## Project links
+
+- Repository: https://github.com/Youssef-1-1lol/cct360-project3-after-hours
+- GitHub Pages: https://youssef-1-1lol.github.io/cct360-project3-after-hours/
+
+The live link is verified separately as part of publication; do not infer a successful deployment from the URL alone.
+
 ## Run
 
 Open `index.html` directly, or serve this folder with `python3 -m http.server 8773` and visit http://localhost:8773. No installation, API, account, key, audio, remote font or internet connection is needed for the experience itself.
